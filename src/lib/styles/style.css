@@ -1,8 +1,18 @@
+@font-face {
+    font-family: "Gelasio";
+    font-style: normal;
+    src: url(https://fonts.googleapis.com/css?family=Gelasi);
+}
 body { 
     margin: 0;
-    background: #eee;
-    color: #333;
-    font-family: "Alkes", Georgia, serif;
+    background: #282828;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 1em;
+}
+
+a { 
+    color: #fafafa;
 }
 
 main { 
