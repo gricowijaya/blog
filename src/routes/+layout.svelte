@@ -1,14 +1,14 @@
 <script>
     // alias of $lib goes to src
-    // import Header from "$lib/components/Header.svelte"
+    import Menu from "$lib/components/Menu.svelte"
     import "$lib/styles/style.css"
     import "$lib/styles/style.scss"
 </script>
 
-<!-- <Header/> -->
 <!-- <header>This is the Header</header> -->
 
 <main>
+<Menu/>
     <slot />
 </main>
 
